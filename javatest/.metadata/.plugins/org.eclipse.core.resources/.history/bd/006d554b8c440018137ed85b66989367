@@ -1,0 +1,30 @@
+package introspector;
+
+import java.beans.BeanInfo;
+import java.beans.IntrospectionException;
+import java.beans.Introspector;
+import java.beans.PropertyDescriptor;
+import java.lang.reflect.Method;
+
+import org.junit.Test;
+
+public class Demo1 {
+	
+	Job p = new Job();
+	@Test
+	public void test1() throws Exception{
+		
+		BeanInfo info = Introspector.getBeanInfo(Job.class,Object.class);
+		PropertyDescriptor[] ps = info.getPropertyDescriptors();
+		for(PropertyDescriptor pd : ps) {
+			System.out.println(pd.getName());
+		}
+	}
+	
+	@Test
+	public void test2() throws Exception {
+		PropertyDescriptor pd = new PropertyDescriptor("age", Job.class);
+		Method method = pd.getWriteMethod();
+		method.invoke(p, 45);
+	}
+}

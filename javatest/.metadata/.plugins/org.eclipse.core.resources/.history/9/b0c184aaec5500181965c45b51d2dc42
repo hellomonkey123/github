@@ -1,0 +1,18 @@
+package xmltest;
+
+
+import javax.xml.parsers.DocumentBuilder;
+import javax.xml.parsers.DocumentBuilderFactory;
+
+public class Dome2 {
+	
+	public static void main(String[] args) {
+		
+		DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
+		
+		DocumentBuilder builder = factory.newDocumentBuilder();
+		
+		Document document = builder.parse("src/book.xml");
+	}
+
+}

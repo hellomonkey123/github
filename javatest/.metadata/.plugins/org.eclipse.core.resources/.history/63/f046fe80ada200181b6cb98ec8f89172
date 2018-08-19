@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>带数据给request Demo2</title>
+		<meta charset="UTF-8">
+		<meta http-equiv="keywords" content="keyword1,keyword2,keyword3">
+		<meta http-equiv="description" content="this is my page">
+		<meta http-equiv="content-type" content="text/html;charset=UTF-8">
+	</head>
+	<body>
+		<a href="/test9/servlet/RequestDemo2?name=xxx">点点</a>
+	
+		<form action="/test9/servlet/RequestDemo2" method="post">
+			用户名:<input type="text" name="username">
+			<input type="submit" value="提交">
+		</form>
+
+	</body>
+</html>

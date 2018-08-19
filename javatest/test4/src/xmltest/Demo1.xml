@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml-stylesheet type="text/css" href="Demo1.css"?>
+<soft>
+<a>
+<a1 id='a1'>pig</a1>
+<a2 id='a2'>dog</a2>
+</a>
+<b>
+<b1 id='b1'>mouse</b1>
+<b2 id='b2'>house</b2>
+</b>
+</soft>

@@ -1,0 +1,11 @@
+package cn.incast;
+
+import javax.servlet.http.HttpServlet;
+
+public class ResponseDemo1 extends HttpServlet {
+
+	public ResponseDemo1() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

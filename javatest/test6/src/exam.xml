@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="gb2312"?>
+
+<exam> 
+  <student examid="121" idcard="134"> 
+    <name>xiaoqiang</name>  
+    <grade>89.0</grade>  
+    <location>xian</location>  
+    <location>xian</location>  
+    <location>xian</location>  
+    <location>xian</location>
+    <location>46</location>  
+    <location>dalian</location>  
+    <location>dalian</location>  
+    <location>dalian</location>  
+    <location>dalian</location> 
+  </student>  
+  <student examid="121" idcard="134"> 
+    <name fu="gfdjsh">xiaoqiang</name>  
+    <location>shenzhen</location>  
+    <grade>46</grade> 
+  </student>  
+  <student examid="121" idcard="134"> 
+    <name>xiaoqiang</name>  
+    <location>shenzhen</location>  
+    <grade>89.0</grade> 
+  </student>  
+  <student examid="121" idcard="134"> 
+    <name>xiaoqiang</name>  
+    <location>shenzhen</location>  
+    <grade>89.0</grade> 
+  </student>  
+  <student examid="121" idcard="134"> 
+    <name>xiaoqiang</name>  
+    <location>shenzhen</location>  
+    <grade>89.0</grade> 
+  </student>  
+  <student examid="121" idcard="134"> 
+    <name>xiaoqiang</name>  
+    <location>shenzhen</location>  
+    <grade>89.0</grade> 
+  </student>  
+  <student examid="121" idcard="134"> 
+    <name>xiaoqiang</name>  
+    <location>shenzhen</location>  
+    <grade>89.0</grade> 
+  </student>  
+  <student examid="123" idcard="234"> 
+    <name>aaa</name>  
+    <location>hangzhou</location>  
+    <grade>87.0</grade> 
+  </student>  
+  <student examid="121" idcard="134"> 
+    <name>xiaoqiang</name>  
+    <location>shenzhen</location>  
+    <grade>89.0</grade> 
+  </student> 
+</exam>

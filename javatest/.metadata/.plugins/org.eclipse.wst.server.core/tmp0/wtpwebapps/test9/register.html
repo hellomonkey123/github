@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>register.html</title>
+	<script type="text/javascript">
+		function changeImage(img) {
+			img.src = img.src + "?" + new Date().getTime();
+	}
+	</script>
+	
+</head>
+<body>
+	<form action="">
+		用户名:<input type="text" name="username"><br /> 
+		密码:<input type="password" name="password"><br /> 
+		验证码:<input type="text" name="checkcode">
+		<img src="/test9/servlet/ResponseDemo5" onclick="changeImage(this)" alt="换一张" style="cursor:hand"><br/> 
+		<input type="submit" value="register">
+	</form>
+
+</body>
+</html>

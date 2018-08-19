@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<exam>
+
+
+	<student examid="444" idcard="333">
+		<name>李四</name>
+		<location>大连</location>
+		<grade>97</grade>
+	</student>
+	<student examid="121" idcard="134">
+		<location>xiaoqiang</location>
+		<location>shenzhen</location>
+		<grade>89.0</grade>
+	</student>
+	<student examid="121" idcard="134">
+		<location>xiaoqiang</location>
+		<location>shenzhen</location>
+		<grade>89.0</grade>
+	</student>
+	<student examid="121" idcard="134">
+		<location>xiaoqiang</location>
+		<location>shenzhen</location>
+		<grade>89.0</grade>
+	</student>
+	<student examid="121" idcard="134">
+		<location>xiaoqiang</location>
+		<location>shenzhen</location>
+		<grade>89.0</grade>
+	</student>
+	<student examid="121" idcard="134">
+		<location>xiaoqiang</location>
+		<location>shenzhen</location>
+		<grade>89.0</grade>
+	</student>
+	<student examid="121" idcard="134">
+		<location>xiaoqiang</location>
+		<location>shenzhen</location>
+		<grade>89.0</grade>
+	</student>
+	<student examid="121" idcard="134">
+		<location>xiaoqiang</location>
+		<location>shenzhen</location>
+		<grade>89.0</grade>
+	</student>
+	<student examid="123" idcard="234">
+		<location>aaa</location>
+		<location>hangzhou</location>
+		<grade>87.0</grade>
+	</student>
+	<student examid="121" idcard="134">
+		<name>xiaoqiang</name>
+		<location>shenzhen</location>
+		<grade>89.0</grade>
+	</student>
+</exam>

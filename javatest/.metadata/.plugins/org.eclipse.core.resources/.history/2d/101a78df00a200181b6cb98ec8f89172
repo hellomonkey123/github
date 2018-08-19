@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>register.html</title>
+</head>
+<body>
+	<form action="">
+		username:<input type="text" name="username"><br /> 
+		password:<input type="password" name="password"><br /> 
+		identified cord:<input type="text" name="checkcode"><img src="/test9/servlet/ResponseDemo5"><br/> 
+		<input type="submit" value="register">
+	</form>
+
+</body>
+</html>

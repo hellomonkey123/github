@@ -1,0 +1,21 @@
+package introspector;
+
+import java.beans.BeanInfo;
+import java.beans.IntrospectionException;
+import java.beans.Introspector;
+import java.beans.PropertyDescriptor;
+
+import org.junit.Test;
+
+public class Demo1 {
+	
+	@Test
+	public void test1() throws Exception{
+		
+		BeanInfo info = Introspector.getBeanInfo(Job.class);
+		PropertyDescriptor[] ps = info.getPropertyDescriptors();
+		for(PropertyDescriptor pd : ps) {
+			System.out.println(pd.getName());
+		}
+	}
+}

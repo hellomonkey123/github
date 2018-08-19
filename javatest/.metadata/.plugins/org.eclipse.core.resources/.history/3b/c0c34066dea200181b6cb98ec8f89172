@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		
+		<title>form2.html</title>
+		<meta http-equiv="keywords" content="keyword1,keyword2,keyword3">
+		<meta http-equiv="description" content="this is my page">
+		<meta http-equiv="content-type" content="text/html;charset=UTF-8">
+		
+		<!-- <link rel="stylesheet" type="text/css" href="./styles.css"> -->
+	</head>
+	<body>
+		
+	
+		<form action="/test9/servlet/RequestDemo4" method="get">
+			用户：<input type="text" name="username"><br/>
+			
+			<input type="submit" value="提交">
+		</form>
+
+
+
+	</body>
+</html>

@@ -1,0 +1,69 @@
+package cn.itcast.request;
+
+import java.io.IOException;
+import java.util.Enumeration;
+
+import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+/**
+ * Servlet implementation class RequestDemo2
+ */
+@WebServlet("/servlet/RequestDemo2")
+public class RequestDemo2 extends HttpServlet {
+	private static final long serialVersionUID = 1L;
+
+	/**
+	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse response)
+	 */
+	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		// TODO Auto-generated method stub
+		
+		String value1 = request.getParameter("username");
+		System.out.println(value1);
+		
+		System.out.println("--------------------------");
+		
+		Enumeration e = request.getParameterNames();
+		while(e.hasMoreElements()) {
+			String name = (String) e.nextElement();
+			String value = request.getParameter(name);
+			System.out.println(name + "=" + value);
+		}
+	}
+
+	private void test1(HttpServletRequest request) {
+		//获取头三种相关方法
+		String headValue = request.getHeader("Accept-Encoding");
+		System.out.println(headValue);
+		
+		System.out.println("--------------------------");
+		
+		Enumeration e = request.getHeaders("Accept-Encoding");
+		while(e.hasMoreElements()) {
+			String value = (String) e.nextElement();
+			System.out.println(value);
+		}
+		
+		System.out.println("--------------------------");
+		
+		e = request.getHeaderNames();
+		while(e.hasMoreElements()) {
+			String name = (String) e.nextElement();
+			String value = request.getHeader(name);
+			System.out.println(name + "=" + value);
+		}
+	}
+
+	/**
+	 * @see HttpServlet#doPost(HttpServletRequest request, HttpServletResponse response)
+	 */
+	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		// TODO Auto-generated method stub
+		doGet(request, response);
+	}
+
+}

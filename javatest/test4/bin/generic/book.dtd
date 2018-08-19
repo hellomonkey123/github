@@ -1,0 +1,6 @@
+﻿<!ELEMENT 书架 (书)>
+<!ELEMENT 书 (书,作者,售价)>
+<!ELEMENT 书名 (#PCDATA)>
+<!ELEMENT 作者 (#PCDATA)>
+<!ELEMENT 售价 (#PCDATA)>
+
