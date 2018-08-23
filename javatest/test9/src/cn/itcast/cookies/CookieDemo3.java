@@ -25,7 +25,6 @@ public class CookieDemo3 extends HttpServlet {
 		
 		response.setCharacterEncoding("UTF-8");
 		response.setContentType("text/html;charset=UTF-8");
-		
 		PrintWriter out = response.getWriter();
 		
 		//1.输出网站所有商品

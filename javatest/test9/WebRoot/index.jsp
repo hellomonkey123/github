@@ -9,7 +9,8 @@
 	<body>
 		
 		
-	    看广告<br/>
+	    欢迎您：${user.username} <a href="/test9/login.html">login</a>
+	    <a href="/test9/servlet/LoginoutServlet">login out</a><br/><br/><br/>
 	    
 	    <a href="/test9/servlet/ResponseDemo7">查看图书</a>
 	</body>
