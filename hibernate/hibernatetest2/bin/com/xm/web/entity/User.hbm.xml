@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated 2018-9-17 17:01:11 by Hibernate Tools 3.4.0.CR1 -->
+<hibernate-mapping>
+    <class name="com.xm.web.entity.User" table="USER1">
+         <id name="id">
+            <!-- id生成策略 -->
+            <generator class="assigned"></generator>
+        </id>
+        
+        <property name="userid"></property>
+        <property name="username"></property>
+        <property name="password"></property>
+        <property name="phone"></property>
+        <property name="sex"></property>
+        <property name="age"></property>
+        <property name="weight"></property>
+        <property name="height"></property>
+    </class>
+</hibernate-mapping>
